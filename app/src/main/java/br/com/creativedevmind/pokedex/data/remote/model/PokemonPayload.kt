@@ -14,7 +14,7 @@ data class Sprites(
 
 data class SpritesOther(
     @SerializedName(value = "dream_world") val dreamWorld: SpritesOtherDreamWorld,
-    @SerializedName(value = "official_artwork") val officialArtwork: SpritesOtherOfficialArtwork
+    @SerializedName(value = "official-artwork") val officialArtwork: SpritesOtherOfficialArtwork
 )
 
 data class SpritesOtherDreamWorld(
